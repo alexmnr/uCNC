@@ -137,7 +137,7 @@ uint8_t kinematics_home(void)
 #if HOMING_CYCLE_2_AXIS_MASK != 0
 	if (mc_home_axis(HOMING_CYCLE_2_AXIS_MASK, HOMING_CYCLE_2_LIMIT_MASK))
 	{
-		return HOMING_CYCLE_2_ERROR
+		return HOMING_CYCLE_2_ERROR;
 	}
 #endif
 
