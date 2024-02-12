@@ -79,6 +79,8 @@ cp docs/arctos/boardmap_reset.h uCNC/
 cp docs/arctos/boardmap_overrides.h uCNC/
 cp docs/arctos/cnc_hal_reset.h uCNC/
 cp docs/arctos/cnc_hal_overrides.h uCNC/
+cp docs/arctos/cnc_config.h uCNC/
+cp 
 ```
 
 There is also a 'ucnc_build.json' you can use with the uCNC [configuration tool](https://paciente8159.github.io/uCNC-config-builder/) to alter the pinouts.  Note, however, the configuration builder has several bugs, so be sure to double-check it before proceeding with changes.
@@ -111,7 +113,7 @@ $23 = 0 (Homing direction invert, mask)
 $24 = 400.000 (Homing locate feed rate, mm/min)
 $25 = 400.000 (Homing search seek rate, mm/min)
 $26 = 250 (Homing switch debounce delay, milliseconds)
-$27 = 5.0 (Homing switch pull-off distance, millimeters)
+$27 = 10.0 (Homing switch pull-off distance, millimeters)
 $30 = 0 (Maximum spindle speed, RPM)
 $31 = 5 (Minimum spindle speed, RPM)
 $32 = 0 (Laser-mode enable, boolean)
@@ -141,4 +143,14 @@ $133 = 800.000 (A-axis maximum travel, millimeters)
 $134 = 800.000 (B-axis maximum travel, millimeters)
 $135 = 800.000 (C-axis maximum travel, millimeters)
 ```
+
+# Setting scratch
+
+200 steps/mm * 0.10 mm/deg = 20 steps/deg
+= 200 steps/360 degrees
+= 2000 steps / 3600 degrees
+3600mm/min = 60deg/sec
+
+
+
 

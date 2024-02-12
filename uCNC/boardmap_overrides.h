@@ -51,7 +51,7 @@ extern "C"
 #define STEP2_EN_PORT L
 #define STEP3_EN_BIT 1
 #define STEP3_EN_PORT C
-#define STEP4_EN_BIT 3
+#define STEP4_EN_BIT 7
 #define STEP4_EN_PORT C
 #define STEP5_EN_BIT 1
 #define STEP5_EN_PORT A
