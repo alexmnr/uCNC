@@ -16,30 +16,30 @@ This section describes the pin connections for this configuration specific to th
 
 |Signal Name|Ardino Port|Connection|Description|
 |---|---|----------|-----------|
-|OK X-EN|PF0|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
-|OK X-STEP|PF1|CNC Shield #1 XSTEP|Step the X axis|
-|NO X-DIR|PF2|CNC Shield #1 XDIR|Direction of X axis movement|
-|OK Y-EN|PF3|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
-|OK Y-STEP|PF4|CNC Shield #1 YSTEP|Step the Y axis|
-|NO Y-DIR|PF5|CNC Shield #1 YDIR|Direction of Y axis movement|
-|OK Z-EN|PL0|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
-|OK Z-STEP|PL2|CNC Shield #1 ZSTEP|Step the Z axis|
-|NO Z-DIR|PL4|CNC Shield #1 ZDIR|Direction of Z axis movement|
-|OK X-LIMIT|PK0(PCINT16)|X Limit Switch "Red" wire|Limit switch for X axis. Limit switch black pin goes to GND|
-|OK Y-LIMIT|PK1(PCINT17)|Y Limit Switch "Red" wire|Limit switch for Y axis. Limit switch black pin goes to GND|
-|OK Z-LIMIT|PK2(PCINT18)|Z Limit Switch "Red" wire|Limit switch for Z axis. Limit switch black pin goes to GND|
-|OK A-LIMIT|PK3(PCINT19)|A Limit switch "Red" wire|Limit switch for A axis. Limit switch black pin goes to GND|
-|OK B-LIMIT|PK4(PCINT20)|B Limit switch "Red" wire|Limit switch for C axis. Limit switch black pin goes to GND|
-|OK C-LIMIT|PK5(PCINT21)|C Limit switch "Red" wire|Limit switch for C axis. Limit switch black pin goes to GND|
-|OK A-EN|PC1|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
-|OK A-STEP|PC3|CNC Shield #2 XSTEP|Step the A axis|
-|NO A-DIR|PC5|CNC Shield #2 XDIR|Direction of A axis movement|
-|OK B-EN|PC7|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
-|B-STEP|PA6|CNC Shield #2 YSTEP|Step the B axis|
-|NO B-DIR|PA4|CNC Shield #2 YDIR|Direction of B axis movement|
+|X-EN|PF0|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
+|X-STEP|PF1|CNC Shield #1 XSTEP|Step the X axis|
+|X-DIR|PF2|CNC Shield #1 XDIR|Direction of X axis movement|
+|Y-EN|PF3|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
+|Y-STEP|PF4|CNC Shield #1 YSTEP|Step the Y axis|
+|Y-DIR|PF5|CNC Shield #1 YDIR|Direction of Y axis movement|
+|Z-EN|PL0|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
+|Z-STEP|PL2|CNC Shield #1 ZSTEP|Step the Z axis|
+|Z-DIR|PL4|CNC Shield #1 ZDIR|Direction of Z axis movement|
+|X-LIMIT|PK0(PCINT16)|X Limit Switch "Red" wire|Limit switch for X axis. Limit switch black pin goes to GND|
+|Y-LIMIT|PK1(PCINT17)|Y Limit Switch "Red" wire|Limit switch for Y axis. Limit switch black pin goes to GND|
+|Z-LIMIT|PK2(PCINT18)|Z Limit Switch "Red" wire|Limit switch for Z axis. Limit switch black pin goes to GND|
+|A-LIMIT|PK3(PCINT19)|A Limit switch "Red" wire|Limit switch for A axis. Limit switch black pin goes to GND|
+|B-LIMIT|PK4(PCINT20)|B Limit switch "Red" wire|Limit switch for C axis. Limit switch black pin goes to GND|
+|C-LIMIT|PK5(PCINT21)|C Limit switch "Red" wire|Limit switch for C axis. Limit switch black pin goes to GND|
+|A-EN|PC3|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
+|A-STEP|PC5|CNC Shield #2 XSTEP|Step the A axis|
+|A-DIR|PC7|CNC Shield #2 XDIR|Direction of A axis movement|
+|B-EN|PA6|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
+|B-STEP|PA4|CNC Shield #2 YSTEP|Step the B axis|
+|B-DIR|PA2|CNC Shield #2 YDIR|Direction of B axis movement|
 |C-EN|PA1|No Connection|This is reserved for future use if, ideally, the XYZ Axes enable bits can be wired separately.  The CNC Shield does not permit individual control of the EN bit, so this is No Connect.
 |C-STEP|PA3|CNC Shield #2 ZSTEP|Step the C axis|
-|NO C-DIR|PA5|CNC Shield #2 ZDIR|Direction of C axis movement|
+|C-DIR|PA5|CNC Shield #2 ZDIR|Direction of C axis movement|
 |GRIPPER|PB6|Gripper Servo PWM signal|Servo PWM Signal for Arctos Gripper or other end-effector.|
 |SERVO1|PB5|No Connection|This is reserved for future use in the event another servo were used, for example, as a 'tool' on the Arctos as an alternate end-effector.|
 |SERVO2|PB4|No Connection|This is reserved for future use in the event another servo were used, for example, as a 'tool' on the Arctos as an alternate end-effector.|

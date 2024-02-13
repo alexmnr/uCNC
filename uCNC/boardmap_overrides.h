@@ -25,9 +25,9 @@ extern "C"
 #define STEP1_PORT F
 #define STEP2_BIT 2
 #define STEP2_PORT L
-#define STEP3_BIT 3
+#define STEP3_BIT 5
 #define STEP3_PORT C
-#define STEP4_BIT 6
+#define STEP4_BIT 4
 #define STEP4_PORT A
 #define STEP5_BIT 3
 #define STEP5_PORT A
@@ -37,9 +37,9 @@ extern "C"
 #define DIR1_PORT F
 #define DIR2_BIT 4
 #define DIR2_PORT L
-#define DIR3_BIT 5
+#define DIR3_BIT 7
 #define DIR3_PORT C
-#define DIR4_BIT 4
+#define DIR4_BIT 2
 #define DIR4_PORT A
 #define DIR5_BIT 5
 #define DIR5_PORT A
@@ -49,10 +49,10 @@ extern "C"
 #define STEP1_EN_PORT F
 #define STEP2_EN_BIT 0
 #define STEP2_EN_PORT L
-#define STEP3_EN_BIT 1
+#define STEP3_EN_BIT 3
 #define STEP3_EN_PORT C
-#define STEP4_EN_BIT 7
-#define STEP4_EN_PORT C
+#define STEP4_EN_BIT 6
+#define STEP4_EN_PORT A
 #define STEP5_EN_BIT 1
 #define STEP5_EN_PORT A
 #define PWM0_BIT 6
