@@ -67,8 +67,18 @@ extern "C"
 #define PWM2_PORT B
 #define PWM2_CHANNEL A
 #define PWM2_TIMER 2
-#define DOUT0_BIT 0
-#define DOUT0_PORT A
+#define SERVO0_BIT 6
+#define SERVO0_PORT B
+#define SERVO1_BIT 5
+#define SERVO1_PORT B
+#define SERVO2_BIT 4
+#define SERVO2_PORT B
+#define DOUT0_BIT 7
+#define DOUT0_PORT K
+#define DOUT1_BIT 7
+#define DOUT1_PORT D
+#define DOUT2_BIT 1
+#define DOUT2_PORT G
 #define LIMIT_X_BIT 0
 #define LIMIT_X_PORT K
 #define LIMIT_X_PULLUP

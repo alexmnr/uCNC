@@ -48,6 +48,8 @@ extern "C"
 #undef TOOL1
 #undef PEN_SERVO_PWM
 #undef PEN_SERVO_PWM_DIR
+#undef PEN_SERVO_COOLANT_FLOOD
+#undef PEN_SERVO_COOLANT_MIST
 #undef ENABLE_LASER_PPI
 #undef SOFT_SPI_CLK
 #undef SOFT_SPI_SDO

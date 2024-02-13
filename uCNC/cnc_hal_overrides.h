@@ -6,6 +6,7 @@ extern "C"
 #endif
 
 #include "cnc_hal_reset.h"
+#define ENABLE_COOLANT
 #define DISABLE_ALL_CONTROLS
 #define LIMIT_X_PULLUP_ENABLE
 #define LIMIT_Y_PULLUP_ENABLE
@@ -17,6 +18,7 @@ extern "C"
 #define TOOL1 pen_servo
 #define PEN_SERVO_PWM PWM0
 #define PEN_SERVO_PWM_DIR DOUT0
+#define PEN_SERVO_COOLANT_MIST DOUT2
 #define SOFT_SPI_CLK DOUT30
 #define SOFT_SPI_SDO DOUT29
 #define SOFT_SPI_SDI DIN29
@@ -50,7 +52,6 @@ extern "C"
 #define HOMING_CYCLE_6_AXIS_MASK         AXIS_C_HOMING_MASK
 #define HOMING_CYCLE_6_ERROR             KINEMATIC_HOMING_ERROR_C
 #define HOMING_CYCLE_6_LIMIT_MASK        LINACT5_LIMIT_MASK
-
 #ifdef __cplusplus
 }
 #endif

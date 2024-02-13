@@ -144,13 +144,32 @@ $134 = 800.000 (B-axis maximum travel, millimeters)
 $135 = 800.000 (C-axis maximum travel, millimeters)
 ```
 
-# Setting scratch
+# Sample GCode
 
-200 steps/mm * 0.10 mm/deg = 20 steps/deg
-= 200 steps/360 degrees
-= 2000 steps / 3600 degrees
-3600mm/min = 60deg/sec
+This is some sample GCode for testing the various axes and features.
 
+Unlock
+```
+$X
+```
 
+Set relative movement and 500 feed rate.
+```
+G91
+F500
+```
 
+Move X axis 10 units.
+```
+G1 X10
+```
 
+Move Servo (gripper)
+```
+M3 S450
+```
+
+Home axes (note: all axes will be homed in order as X,Y,Z,A,B,C)
+```
+$H
+```
