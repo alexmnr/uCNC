@@ -1,10 +1,10 @@
 /*
-	Name: kinematics.h
-	Description: Defines the available machine types.
+	Name: kinematic_cartesian.h
+	Description: Custom kinematics definitions for cartesian machine
 
 	Copyright: Copyright (c) João Martins
 	Author: João Martins
-	Date: 11/11/2019
+	Date: 06/02/2020
 
 	µCNC is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -16,23 +16,17 @@
 	See the	GNU General Public License for more details.
 */
 
-#ifndef KINEMATICS_H
-#define KINEMATICS_H
+#ifndef KINEMATIC_ARCTOS_H
+#define KINEMATIC_ARCTOS_H
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-#define KINEMATIC_CARTESIAN 1
-#define KINEMATIC_COREXY 2
-#define KINEMATIC_LINEAR_DELTA 3
-#define KINEMATIC_DELTA 4
-#define KINEMATIC_SCARA 5
-#define KINEMATIC_ARCTOS 6
+#define KINEMATIC_TYPE_STR "AR"
 
 #ifdef __cplusplus
 }
 #endif
-
 #endif
